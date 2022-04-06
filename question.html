@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Quiz</title>
+    <link rel="stylesheet" href="css/form2.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <style type="text/css">
+        body {
+            width: 100%;
+            background: url(image/2384075.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row"><br><br>
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="loader">
+
+                    <div id="quiz">
+
+                        <div class="question">
+                            <h3><span class="label label-warning" id="qid">1</span>
+                                <span id="question"> What is the correct way to declare a function in python?</span>
+                            </h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <input type="radio" id="f-option" name="selector" value="1">
+                                <label for="f-option" class="element-animation">func()</label>
+                                <div class="check"></div>
+                            </li>
+
+                            <li>
+                                <input type="radio" id="s-option" name="selector" value="2">
+                                <label for="s-option" class="element-animation">void()</label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <input type="radio" id="t-option" name="selector" value="3">
+                                <label for="t-option" class="element-animation">def:</label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </li>
+
+                            <button class="btn btn-success btn-lg float-right" type="submit">
+                                <strong>Next</strong> 
+                            </button>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
